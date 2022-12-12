@@ -1,33 +1,38 @@
 {
     "DEFAULT":{
         "replyMessage":[
-            "*Esta respuesta es un respuesta default* cuando no se consigue una palabra clave \n",
-            "la puedes desactivar en tu archivo .env DEFAULT_MESSAGE=false \n",
-            "tambien te quiero recordar que si presentas algun error pasarte por el repositorio \n",
-            "https://github.com/leifermendez/bot-whatsapp#chatbot-whatsapp-opensource \n",
-            "y recuerda tener la ultima versión del proyecto \n\n",
-            "Prueba escribiendo *hola* \n"
+            "Hola un gusto saludarte.\n",
+            "Bienvenido(a) a *Acus* 💊\n\n",
+            "Soy el nuevo chatbot automático, intentaré ayudarte en lo que necesites, si no logro hacerlo te comunicaré con recepción.\n",
+            "Indícame de que necesitas información.\n",
+            "Por favor envía una de las siguientes palabras.\n\n",
+            "1. *Dirección* \n",
+            "2. *Horarios*\n",
+            "3. *Costos*\n",
+            "4. Envío de medicinas a *Domicilio* con motorizado (Quito)\n",
+            "5. Envío de medicinas por *Encomienda* (fuera de Quito)\n",
+            "4. Formas de *Pago*\n\n",   
+            "_Consejo 😉, en caso de ”Envío de medicinas a domicilio con Motorizado”, solo envía la palabra *Domicilio*, si por el contrario necesitas ayuda con algo distinto envía la palabra *ayuda*._"
         ],
         "media":null,
         "trigger":null
     },
-    "STEP_0":{
+    "SALUDO":{
         "replyMessage":[
-            "El flujo ha finalizado \n",
-            "pero puedes ver todo el codigo de este \n",
-            "repositorio en https://github.com/leifermendez/bot-whatsapp.git"
+            "Hola un gusto saludarte.\n",
+            "Bienvenido(a) a *Acus* 💊\n\n",
+            "Soy el nuevo chatbot automático, intentaré ayudarte en lo que necesites, si no logro hacerlo te comunicaré con recepción.\n",
+            "Indícame de que necesitas información.\n",
+            "Por favor envía una de las siguientes palabras.\n\n",
+            "1. *Dirección* \n",
+            "2. *Horarios*\n",
+            "3. *Costos*\n",
+            "4. Envío de medicinas a *Domicilio* con motorizado (Quito)\n",
+            "5. Envío de medicinas por *Encomienda* (fuera de Quito)\n",
+            "4. Formas de *Pago*\n\n",   
+            "_Consejo 😉, en caso de ”Envío de medicinas a domicilio con Motorizado”, solo envía la palabra *Domicilio*, si por el contrario necesitas ayuda con algo distinto envía la palabra *ayuda*._"
         ],
         "media":null,
-        "trigger":null
-    },
-    "STEP_1":{
-        "replyMessage":[
-            "Hola! y✌️ Bienvenido a este 🤖 CHATBOT de Whatsapp, lo primero \n",
-            "decirte que mi nombre es *Leifer Mendez*😎  \n",
-            "\n Si necesitas ver más info sobre las capacitacion tecnicas ",
-            "escribe *cursos* o *info* o escribe *audio*"
-        ],
-        "media":"https://media2.giphy.com/media/VQJu0IeULuAmCwf5SL/giphy.gif",
         "trigger":null,
         "actions":{
             "title":"¿Que te interesa ver?",
@@ -40,109 +45,118 @@
             ]
         }
     },
-    "STEP_2":{
+    "DIRECCION":{
         "replyMessage":[
-            "Perfecto, te voy a pasar la lista ",
-            "de los temas que tengo y un breve video 🙂🤖 \n\n",
-            "*Angular* Basico (Pago) \n",
-            "*Angular* Basico (Gratis) \n",
-            "*Node* Basico (Gratis) \n",
-            "*NGRX* Basico (Gratis) \n",
-            "*AWS* Basico (Pago) \n\n",
-            "Escribe la palabra del tema que te interese \n"
+            "Listo! aquí te indico nuestra dirección exacta\n\n",
+            "*Calle Gregorio Bobadilla*, entre Av Juan José Villalengua y Av. Naciones Unidas, Casa N37-111, fachada de piedra, con aviso rojo de Acus. Centro Norte de Quito.\n\n",
+            "De todas formas aquí te proporciono la ubicación en Google Maps 🗺\n",
+            "https://goo.gl/maps/62BBpEYzAgJHSkAQ7 \n\n",
+            "Y adicionalmente una foto de la fachada 😊\n\n",
+            "Para volver al menú anterior enviar *menú*"
         ],
-        "media":"https://i.giphy.com/media/5J5gN0WUk0VToHaK2p/giphy-downsized.gif",
+        "media":"fachada.jpg",
         "trigger":null
     },
-    "STEP_2_1":{
+    "HORARIOS":{
         "replyMessage":[
-            "Si te interesa Angular tienes disponible \n",
-            "*(Gratis)* https://bit.ly/367tJ32 \n\n",
-            "*(Pago)* https://link.codigoencasa.com/PROMO-INICIAL \n\n",
-            "*(Pago)* https://link.codigoencasa.com/ANGULAR-BASICO-EDTEAM \n\n",
-            "😎😎😎"
-        ],
-        "media":"https://i.imgur.com/Q0a5UQI.jpg",
-        "trigger":null
-    },
-    "STEP_2_2":{
-        "replyMessage":[
-            "Si te interesa NODE tienes disponible \n",
-            "*(Gratis)* https://bit.ly/3od1Bl6 \n\n",
-            "Espero pronto tener más material disponible",
-            "🤖"
+            "Con mucho gusto te facilito nuestro Horario 🕑\n\n",
+            "*Lunes a Viernes* - 8:30 a 14:30\n",
+            "*Fines de semana* - no laboramos\n\n",
+            "Si nos escribes fuera de nuestro horario laboral lo más probable es que podamos responderte a primera hora el día siguiente.\n\n",
+            "Para volver al menú anterior enviar *menú*"
         ],
         "media":null,
         "trigger":null
     },
-    "STEP_2_3":{
+    "COSTOS":{
         "replyMessage":[
-            "NGRX para manejar estados en Angular \n",
-            "*(Gratis)* https://bit.ly/ngrx-desde-cero \n",
-            "A darle! 😮"
+            "Con gusto te indico los costos de las medicinas\n\n",
+            "Frascos de 5cc - $4,50\n",
+            "Frascos de 30cc (spray) - $17$\n\n",
+            "Si desea que se le haga llegar a domicilio tiene un recargo adicional por el envío.\n\n",
+            "También puedes comprar directamente en nuestra farmacia o pedir envío, envía una de las siguientes opciones.\n\n",
+            "1. *Dirección*\n",
+            "2. Envío de medicinas a *Domicilio* con motorizado (Quito)\n",
+            "3. Envío de medicinas por *Encomienda* (fuera de Quito)\n\n",
+            "Para volver al menú anterior enviar *menú*"
         ],
         "media":null,
         "trigger":null
     },
-    "STEP_2_4":{
+    "DOMICILIO":{
         "replyMessage":[
-            "Muy bien AWS esta pronto a salir pre-registrate aquí \n",
-            "*(Pre-registro)* https://link.codigoencasa.com/AWS-BASICO-INVITACION \n",
-            "😮😮"
+            "Listo, ya te indico.\n\n",
+            "Para envíos en la ciudad de Quito necesitamos que nos ayudes con los siguientes datos.\n\n",
+            "1. Foto de la receta médica.\n",
+            "2. Tu ubicación de GPS para mayor exactitud.\n",
+            "3. Intersección, punto de referencia.\n",
+            "4. Sector.\n",
+            "5. Datos de facturación (Nombre y Apellido, Cédula, Sector, Número de contacto).\n\n",
+            "⚠️ Verifica bien los datos antes de enviar porque con estos gestionaremos el envío y factura.\n\n",
+            "Una vez recibidos los datos podremos calcular el costo de envío y poder coordinar con usted le fecha y hora de entrega, la misma podría hacerse hasta en un máximo de 24hrs.\n\n",
+            "Para volver al menú anterior enviar *menú*.\n\n",
+            "Cuando termines de enviarnos los datos por favor envía la palabra *fin*."
         ],
         "media":null,
         "trigger":null
     },
-    "STEP_3":{
+    "ENCOMIENDA":{
         "replyMessage":[
-            "¿Ok cual curso de intereso? \n",
-            "*angular* , *node*, *ngrx*, *aws*"
+            "Listo, ya te indico.\n\n",
+            "Para envíos fuera de la ciudad de Quito necesitamos que nos ayudes con los siguientes datos.\n\n",
+            "1. Nombre y Apellido.\n",
+            "2. Cédula.\n",
+            "3. Correo electrónico.\n",
+            "4. Número de contacto.\n",
+            "5. Ciudad.\n",
+            "6. Calle.\n",
+            "7. Intersección, punto de referencia.\n",
+            "8. Sector.\n",
+            "9. Una foto de la receta médica.\n",
+            "10. Datos de facturación (Nombre y Apellido, Cédula, Sector, Número de contacto).\n\n",
+            "⚠️ Verifica bien los datos antes de enviar porque con estos gestionaremos el envío y factura.\n\n",
+            "Una vez recibidos los datos podremos calcular el costo de envío y poder coordinar con usted le fecha y hora de entrega, la misma podría hacerse hasta en un máximo de 24hrs.\n\n",
+            "Para volver al menú anterior enviar *menú*.\n\n",
+            "Cuando termines de enviarnos los datos por favor envía la palabra *fin*."
         ],
         "media":null,
         "trigger":null
     },
-    "STEP_4":{
+    "PAGO":{
         "replyMessage":[
-            "Gracias a ti! \n"
-        ],
-        "media":"https://media4.giphy.com/media/hur0SFIU5SH4mxNBWa/giphy.gif",
-        "trigger":null
-    },
-    "STEP_5":{
-        "replyMessage":[
-            "Muy bien te comparto el canal de Youtube \n",
-            "https://youtube.com/leifermendez \n"
-        ],
-        "media":null,
-        "trigger":null
-    },
-    "STEP_6":{
-        "replyMessage":[
-            "Perfecto, te voy a pasar la lista ",
-            "de los temas que tengo y un breve video 🙂🤖 \n\n",
-            "*Angular* Basico (Pago) \n",
-            "*Angular* Basico (Gratis) \n",
-            "*Node* Basico (Gratis) \n",
-            "*NGRX* Basico (Gratis) \n",
-            "*AWS* Basico (Pago) \n\n",
-            "Escribe la palabra del tema que te interese \n"
-        ],
-        "media":"https://i.giphy.com/media/5J5gN0WUk0VToHaK2p/giphy-downsized.gif",
-        "trigger":null
-    },
-    "STEP_7":{
-        "replyMessage":[
-            "Vente al telegram \n",
-            "https://t.me/leifermendez \n"
+            "Con gusto ☺️, aquí le indico las distintas formas de pago que tenemos disponibles.\n\n",
+            "*Transferencias*\n",
+            "Banco Pichincha\n",
+            "Cuenta Ahorros - 2206947502\n",
+            "A nombre de *Tatiana Rodas*\n",
+            "Cédula: 1716584584\n",
+            "Correo: acusfarmacia@gmail.com\n\n",
+            "*Efectivo*\n\n",
+            "Para volver al menú anterior enviar *menú*"
         ],
         "media":null,
         "trigger":null
     },
-    "STEP_8":{
+    "AYUDA":{
+
+        
         "replyMessage":[
-            "Esto es una nota de voz \n"
+            "Listo con mucho gusto te vamos a redirigir a recepción 😊\n\n",
+            "En este momento estamos atentiendo a pacientes y clientes danos unos minutos para atenderte.\n\n",
+            "De igual forma te invitamos a explorar las opciones iniciales donde te podremos dar información precisa.\n\n",
+            "Para volver al menú anterior enviar *menú*"
         ],
-        "media":"nota-de-voz.mp3",
+        "media":null,
+        "trigger":null
+    },
+    "FIN":{
+        "replyMessage":[
+            "Genial!\n\n",
+            "Con toda la información que nos haz provehido podremos gestionar más eficientemente tu atención.\n\n",
+            "Estamos atendiendo los requerimientos en orden de llegada, apenas atendamos el tuyo en los próximos minutos te podremos dar una confirmación 😊.\n\n",
+            "Gracias por tu paciencia. ✌"
+        ],
+        "media":null,
         "trigger":null
     }
 }
