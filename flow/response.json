@@ -7,11 +7,10 @@
             "Indícame de que necesitas información.\n",
             "Por favor envía una de las siguientes palabras.\n\n",
             "1. *Dirección* \n",
-            "2. *Horarios*\n",
-            "3. *Costos*\n",
-            "4. Envío de medicinas a *Domicilio* con motorizado (Quito)\n",
-            "5. Envío de medicinas por *Encomienda* (fuera de Quito)\n",
-            "4. Formas de *Pago*\n\n",   
+            "2. *Costos*\n",
+            "3. Envío de medicinas a *Domicilio* con motorizado (Quito)\n",
+            "4. Envío de medicinas por *Encomienda* (fuera de Quito)\n",
+            "5. Formas de *Pago*\n\n",   
             "_Consejo 😉, en caso de ”Envío de medicinas a domicilio con Motorizado”, solo envía la palabra *Domicilio*, si por el contrario necesitas ayuda con algo distinto envía la palabra *ayuda*._"
         ],
         "media":null,
@@ -25,11 +24,10 @@
             "Indícame de que necesitas información.\n",
             "Por favor envía una de las siguientes palabras.\n\n",
             "1. *Dirección* \n",
-            "2. *Horarios*\n",
-            "3. *Costos*\n",
-            "4. Envío de medicinas a *Domicilio* con motorizado (Quito)\n",
-            "5. Envío de medicinas por *Encomienda* (fuera de Quito)\n",
-            "4. Formas de *Pago*\n\n",   
+            "2. *Costos*\n",
+            "3. Envío de medicinas a *Domicilio* con motorizado (Quito)\n",
+            "4. Envío de medicinas por *Encomienda* (fuera de Quito)\n",
+            "5. Formas de *Pago*\n\n",   
             "_Consejo 😉, en caso de ”Envío de medicinas a domicilio con Motorizado”, solo envía la palabra *Domicilio*, si por el contrario necesitas ayuda con algo distinto envía la palabra *ayuda*._"
         ],
         "media":null,
@@ -55,17 +53,6 @@
             "Para volver al menú anterior enviar *menú*"
         ],
         "media":"fachada.jpg",
-        "trigger":null
-    },
-    "HORARIOS":{
-        "replyMessage":[
-            "Con mucho gusto te facilito nuestro Horario 🕑\n\n",
-            "*Lunes a Viernes* - 8:30 a 14:30\n",
-            "*Fines de semana* - no laboramos\n\n",
-            "Si nos escribes fuera de nuestro horario laboral lo más probable es que podamos responderte a primera hora el día siguiente.\n\n",
-            "Para volver al menú anterior enviar *menú*"
-        ],
-        "media":null,
         "trigger":null
     },
     "COSTOS":{
